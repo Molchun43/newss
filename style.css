@@ -9,7 +9,7 @@ header {
 }
 
 h1 {
-    color: #d4d4d4;
+    color: #c6be94;
     font-size: 4rem;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -23,7 +23,7 @@ article {
     width: 768px;
     margin: 0 auto 32px;
     padding: 6px 15px;
-    border-bottom: 1px  solid rgb(128, g128, 128);
+    border-bottom: 1px  solid rgb(128, g128, 128);    
 }
 
 article a{ 
@@ -57,12 +57,12 @@ footer {
     text-align: center;
 }
 
-footer.links {
+footer .links {
 margin-bottom: 50px;
 }
 
-footer.links > a {
-color: #23749c;
+footer .links > a {
+color: #636b6f;
 padding: 0 25px;
 font-size: 13px;
 font-weight: 600;
@@ -75,4 +75,13 @@ text-transform: uppercase;
     color: rbg(108,117,125);
 font-family: 'Times New Roman', Times, serif;
 }
-
+        
+article:nth-of-type(even) {     /*Фон для нечетных*/
+    background-color:#a7eb92;
+    }     
+    
+.one h2::before {           
+    content: "NEW " ;   
+    }
+    
+ 
